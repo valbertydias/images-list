@@ -1,0 +1,47 @@
+html{
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+main{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.paintings{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.paintings .painting{
+    position: relative; 
+    width: 315px;
+    height: 416px;
+}
+
+.paintings .painting .image{
+    width: 100%;
+}
+
+.paintings .painting .info{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: #ffffff;
+}
+
+.paintings .painting .info .title{
+    margin-bottom: 8px;
+    font-size: 30px;
+}
+
+.paintings .painting .info .caption{
+    font-weight: 300;
+    font-size: 17px;
+}
+
+
